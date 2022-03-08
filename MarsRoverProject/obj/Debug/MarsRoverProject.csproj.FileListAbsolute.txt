@@ -3,11 +3,3 @@ C:\Users\Admin\Documents\Visual Studio 2015\Projects\MarsRoverProject\MarsRoverP
 C:\Users\Admin\Documents\Visual Studio 2015\Projects\MarsRoverProject\MarsRoverProject\bin\Debug\MarsRoverProject.pdb
 C:\Users\Admin\Documents\Visual Studio 2015\Projects\MarsRoverProject\MarsRoverProject\obj\Debug\MarsRoverProject.dll
 C:\Users\Admin\Documents\Visual Studio 2015\Projects\MarsRoverProject\MarsRoverProject\obj\Debug\MarsRoverProject.pdb
-C:\Users\Admin\Documents\GitHub\MarsRoverSolution\MarsRoverProject\bin\Debug\MarsRoverProject.dll.config
-C:\Users\Admin\Documents\GitHub\MarsRoverSolution\MarsRoverProject\bin\Debug\MarsRoverProject.dll
-C:\Users\Admin\Documents\GitHub\MarsRoverSolution\MarsRoverProject\bin\Debug\MarsRoverProject.pdb
-C:\Users\Admin\Documents\GitHub\MarsRoverSolution\MarsRoverProject\obj\Debug\MarsRoverProject.csprojResolveAssemblyReference.cache
-C:\Users\Admin\Documents\GitHub\MarsRoverSolution\MarsRoverProject\obj\Debug\MarsRoverProject.Properties.Resources.resources
-C:\Users\Admin\Documents\GitHub\MarsRoverSolution\MarsRoverProject\obj\Debug\MarsRoverProject.csproj.GenerateResource.Cache
-C:\Users\Admin\Documents\GitHub\MarsRoverSolution\MarsRoverProject\obj\Debug\MarsRoverProject.dll
-C:\Users\Admin\Documents\GitHub\MarsRoverSolution\MarsRoverProject\obj\Debug\MarsRoverProject.pdb

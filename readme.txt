@@ -8,3 +8,10 @@ successfully.
 
 Part III: MarsRoverIOTestProject tests how rover behaves for given input set. As input set, sample provided in
 description of case have been given as aguments from command line and expected results have been observed.
+
+How to Work
+
+Since Part I contains all required files and generates libraries, it should be built before Part II  and Part III.
+Otherwise, you might get problem about accessing files and libraries. Unit test, Part II, is embedded to main project.
+You can easily test using unit testing rules. Part III is a seperate project. You could run independently if files and
+libraries in Part I  is successfully generated.
