@@ -1,0 +1,8 @@
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\MarsRoverProject\MarsRoverIOTestProject\MarsRoverIOTestProject\bin\Debug\MarsRoverIOTestProject.exe.config
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\MarsRoverProject\MarsRoverIOTestProject\MarsRoverIOTestProject\bin\Debug\MarsRoverIOTestProject.exe
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\MarsRoverProject\MarsRoverIOTestProject\MarsRoverIOTestProject\bin\Debug\MarsRoverIOTestProject.pdb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\MarsRoverProject\MarsRoverIOTestProject\MarsRoverIOTestProject\bin\Debug\MarsRoverProject.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\MarsRoverProject\MarsRoverIOTestProject\MarsRoverIOTestProject\bin\Debug\MarsRoverProject.pdb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\MarsRoverProject\MarsRoverIOTestProject\MarsRoverIOTestProject\obj\Debug\MarsRoverIOTestProject.exe
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\MarsRoverProject\MarsRoverIOTestProject\MarsRoverIOTestProject\obj\Debug\MarsRoverIOTestProject.pdb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\MarsRoverProject\MarsRoverIOTestProject\MarsRoverIOTestProject\obj\Debug\MarsRoverIOTestProject.csprojResolveAssemblyReference.cache

@@ -1,0 +1,7 @@
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\MarsRoverProject\MarsRoverProject\bin\Release\MarsRoverProject.dll.config
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\MarsRoverProject\MarsRoverProject\bin\Release\MarsRoverProject.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\MarsRoverProject\MarsRoverProject\bin\Release\MarsRoverProject.pdb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\MarsRoverProject\MarsRoverProject\obj\Release\MarsRoverProject.Properties.Resources.resources
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\MarsRoverProject\MarsRoverProject\obj\Release\MarsRoverProject.csproj.GenerateResource.Cache
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\MarsRoverProject\MarsRoverProject\obj\Release\MarsRoverProject.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\MarsRoverProject\MarsRoverProject\obj\Release\MarsRoverProject.pdb
