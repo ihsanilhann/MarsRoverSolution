@@ -7,8 +7,7 @@ namespace MarsRoverProject.Tests
     [TestClass()]
     public class MarsRoverTests
     {
-        
-        [TestMethod()]
+        [TestMethod(), TestCategory("Exceptions")]
         [ExpectedExceptionAttribute(typeof(NullReferenceException))]
         public void CreateSurfaceTest_EmptyInput_ThowsInsufficientArgumentException()
         {
@@ -20,7 +19,7 @@ namespace MarsRoverProject.Tests
 
         }
 
-        [TestMethod()]
+        [TestMethod(), TestCategory("Exceptions")]
         [ExpectedExceptionAttribute(typeof(NullReferenceException))]
         public void CreateSurfaceTest_UndefinedInput_ThrowsNullReferenceException()
         {
@@ -31,7 +30,7 @@ namespace MarsRoverProject.Tests
             m1.CreateSurface(null);
         }
 
-        [TestMethod()]
+        [TestMethod(), TestCategory("Exceptions")]
         [ExpectedExceptionAttribute(typeof(NotEnoughArgumentException))]
         public void CreateSurfaceTest_MissingSpace_ThrowsNotEnoughArgumentException()
         {
@@ -44,7 +43,7 @@ namespace MarsRoverProject.Tests
         }
 
 
-        [TestMethod()]
+        [TestMethod(), TestCategory("Exceptions")]
         [ExpectedExceptionAttribute(typeof(WrongParameterException))]
         public void CreateSurfaceTest_SurfaceLimit_ThrowsWrongParameterException()
         {
@@ -55,7 +54,7 @@ namespace MarsRoverProject.Tests
             m1.CreateSurface("-1 -1");
         }
 
-        [TestMethod()]
+        [TestMethod(), TestCategory("Exceptions")]
         [ExpectedExceptionAttribute(typeof(OutOfSurfaceException))]
         public void SetPositionTest_OutOfBoundary_ThrowsOutOfSurfaceException()
         {
@@ -68,7 +67,7 @@ namespace MarsRoverProject.Tests
 
         }
 
-        [TestMethod()]
+        [TestMethod(), TestCategory("Exceptions")]
         [ExpectedExceptionAttribute(typeof(SurfaceNotCreatedException))]
         public void ActionTest_Move_ThrowsSurfaceNotCreatedException()
         {
@@ -80,7 +79,7 @@ namespace MarsRoverProject.Tests
 
         }
 
-        [TestMethod()]
+        [TestMethod(), TestCategory("Exceptions")]
         [ExpectedExceptionAttribute(typeof(RotationNotInitializedException))]
         public void ActionTest_Move_ThrowsRotationNotInitializedException()
         {
@@ -94,7 +93,7 @@ namespace MarsRoverProject.Tests
         }
 
 
-        [TestMethod()]
+        [TestMethod(), TestCategory("Exceptions")]
         [ExpectedExceptionAttribute(typeof(InvalidCommandException))]
         public void ActionTest_Move_ThrowsInvalidCommandException()
         {
@@ -109,7 +108,7 @@ namespace MarsRoverProject.Tests
         }
 
 
-        [TestMethod()]
+        [TestMethod(), TestCategory("Exceptions")]
         [ExpectedExceptionAttribute(typeof(OutOfSurfaceException))]
         public void ActionTest_MoveBackward_ThrowsOutOfSurfaceException()
         {
@@ -124,7 +123,7 @@ namespace MarsRoverProject.Tests
         }
 
 
-        [TestMethod()]
+        [TestMethod(), TestCategory("Exceptions")]
         [ExpectedExceptionAttribute(typeof(OutOfSurfaceException))]
         public void ActionTest_MoveForward_ThrowsOutOfSurfaceException()
         {
@@ -138,7 +137,8 @@ namespace MarsRoverProject.Tests
 
         }
 
-        [TestMethod()]
+        
+        [TestMethod(), TestCategory("Move and Settlement")]
         public void SetPositionTest_NoMove_SettledExpectedPoint()
         {
             // Arrange
@@ -159,7 +159,7 @@ namespace MarsRoverProject.Tests
         }
 
 
-        [TestMethod()]
+        [TestMethod(), TestCategory("Move and Settlement")]
         public void ActionTest_Move_AccessExpectedPoint()
         {
             // Arrange
@@ -179,7 +179,7 @@ namespace MarsRoverProject.Tests
             Assert.IsTrue(m1.GetPosition()[1] == yTest);
         }
 
-        [TestMethod()]
+        [TestMethod(), TestCategory("Move and Settlement")]
         public void ActionTest_NoMove_RotateExpectedPoint()
         {
             // Arrange
