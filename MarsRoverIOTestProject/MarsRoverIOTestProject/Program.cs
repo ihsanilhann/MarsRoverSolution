@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using MarsRoverProject;
 
 namespace MarsRoverIOTestProject
@@ -11,19 +7,38 @@ namespace MarsRoverIOTestProject
     {
         static void Main(string[] args)
         {
-            MarsRover mRover = new MarsRover();
-            mRover.CreateSurface(args[0]);
-
-            Int32 i = 1;
-            while (i < args.Length)
+            // Skip operation if not enough input provided
+            if (args.Length > 3)
             {
-                mRover.SetPosition(args[i++]);
-                mRover.Action(args[i++]);
-                mRover.PrintInfo();
-            }
+                // Create a rover and place on Mars
+                MarsRover mRover = new MarsRover();
+                mRover.CreateSurface(args[0]);
 
-            Console.Write("Press any key to continue...");
-            Console.ReadKey();
+                Int32 i = 1;
+                // Check to ensure that there is enough input for rover.
+                while ( (i+2) <= args.Length)
+                {
+                    // First input is rover position
+                    mRover.SetPosition(args[i++]);
+
+                    // Second following argument is action set
+                    mRover.Action(args[i++]);
+
+                    // Now report final location of rover
+                    mRover.PrintInfo();
+                }
+
+                // Say good bye to user
+                Console.Write("Press any key to continue...");
+
+                // Wait for a while
+                Console.ReadKey();
+            }
+            else
+            {
+                // Warn user
+                Console.WriteLine("Not enough argument provided from command line.");
+            }
         }
     }
 }

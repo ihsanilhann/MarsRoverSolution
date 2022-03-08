@@ -33,8 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="MarsRoverProject">
-      <HintPath>..\..\MarsRoverProject\bin\Debug\MarsRoverProject.dll</HintPath>
+    <Reference Include="MarsRoverProject, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Visual Studio 2015\Projects\MarsRoverProject\MarsRoverProject\bin\Release\MarsRoverProject.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,23 +47,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MarsRover\ArgumentCountException.cs" />
-    <Compile Include="MarsRover\Axis.cs" />
-    <Compile Include="MarsRover\EastRotation.cs" />
-    <Compile Include="MarsRover\InsufficientArgumentException.cs" />
-    <Compile Include="MarsRover\InvalidCommandException.cs" />
-    <Compile Include="MarsRover\IRotation.cs" />
-    <Compile Include="MarsRover\MarsRover.cs" />
-    <Compile Include="MarsRover\NorthRotation.cs" />
-    <Compile Include="MarsRover\NotEnoughArgumentException.cs" />
-    <Compile Include="MarsRover\OutOfSurfaceException.cs" />
-    <Compile Include="MarsRover\RotationFactory.cs" />
-    <Compile Include="MarsRover\RotationNotInitializedException.cs" />
-    <Compile Include="MarsRover\SouthRotation.cs" />
-    <Compile Include="MarsRover\SurfaceNotCreatedException.cs" />
-    <Compile Include="MarsRover\TwoDimSurface.cs" />
-    <Compile Include="MarsRover\WestRotation.cs" />
-    <Compile Include="MarsRover\WrongParameterException.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
